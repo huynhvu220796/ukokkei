@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* about.css
+*
+***************************************************************************/
+
+
+/******** Desktop ******** /
+
+/* about01 */
+
+.area1 .area_content {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0px 0px 0px;
+}
+
+.area1 .area_content .img_1 {
+    float: left;
+}
+
+.area1 .area_content .txt_area1 {
+    float: right;
+    width: 46%;
+    line-height: 25px;
+    padding-left: 29px;
+}
+
+.main_content .area2 {
+    margin-top: 22px;
+}
+
+.area2 .area_content .txt_area2 {
+    line-height: 25px;
+    padding-top: 16px;
+}
+
+
+/* about02 */
+
+.area2 .area_content .chart {
+    padding: 25px 0px 34px 0px;
+}
+
+.area2 .area_content .area_pdf {
+    display: block;
+    width: 137px;
+    background-color: #FFFFFF;
+    border: 1px solid #F3ECD7;
+    padding: 4.5px 0px 4.5px 7px;
+    margin-left: 54px;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+.area2 .area_content .area_pdf:before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url('../images/index/new_arrow.png') no-repeat;
+    background-size: contain;
+    vertical-align: -2px;
+    margin-right: 5px;
+}
+
+.area2 .area_content .area_pdf:hover {
+    text-decoration: underline;
+}
+
+
+/* about03 */
+
+.area .area_content .area_content_main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.area1 .area_content .area_content_main {
+    padding-top: 4px;
+}
+
+.area1 .area_content .area_content_main .txt_left {
+    float: left;
+    width: 57%;
+    line-height: 25px;
+}
+
+.area1 .area_content .area_content_main .img_right {
+    float: right;
+}
+
+.area1 .area_content .txt_bottom {
+    width: 100%;
+    line-height: 25px;
+}
+
+.area2 .area_content.about03 {
+    padding-top: 32px;
+    overflow: hidden;
+}
+
+.area2 .area_content.about03 .txt_left {
+    float: right;
+    width: 42%;
+    line-height: 25px;
+    margin-bottom: 28px;
+}
+
+.area2 .area_content.about03 .txt_left01 {
+    line-height: 25px;
+}
+
+.area2 .area_content.about03 .img_right {
+    float: left;
+    padding-right: 29px;
+}
+
+.area3 .area_content.about03 {
+    padding-top: 24px;
+}
+
+.area3 .area_content.about03 .img_right {
+    float: right;
+    padding-left: 20px;
+}
+
+.area3 .area_content.about03 .txt_left {
+    float: left;
+    width: 43.6%;
+    line-height: 25px;
+}
+
+.area3 .area_content.about03 .txt_left01 {
+    line-height: 25px;
+}
+
+.area4 {
+    padding-top: 72px;
+}
+
+.area4 .area_content.about03 {
+    padding-top: 25px;
+}
+
+.area4 .area_content.about03 p {
+    line-height: 25px;
+}
+
+
+/* end content */
+
+
+/******** Responsive ******** /
+
+
+/****** ipad *******/
+
+@media screen and (max-width: 768px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .area1 .area_content .txt_area1 {
+        float: none;
+        width: 100%;
+        overflow: hidden;
+        line-height: 25px;
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in rotate ****** */
+
+@media screen and (max-width: 736px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .area2 .area_content .area_pdf {
+        margin-left: 0px;
+    }
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in rotate ****** */
+
+@media screen and (max-width: 667px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in rotate ****** */
+
+@media screen and (max-width: 586px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in ****** */
+
+@media screen and (max-width: 414px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in ****** */
+
+@media screen and (max-width: 375px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in ****** */
+
+@media screen and (max-width: 320px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .area1 .area_content .txt_area1 {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .area2 .area_content .txt_area2 {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    /***** footer *****/
+}

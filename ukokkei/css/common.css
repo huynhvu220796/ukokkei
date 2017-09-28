@@ -1,0 +1,603 @@
+@charset "utf-8";
+@import url("base.css");
+
+/***************************************************************************
+ *
+ * COMMON STYLE
+ *
+ ***************************************************************************/
+
+body {
+    background-image: url('../images/common/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+ul {
+    list-style: none;
+}
+
+.inner {
+    width: 978px;
+    margin: 0 auto;
+}
+
+.pc {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+
+/******** Desktop ********/
+
+#header {
+    width: 100%;
+    border-top: 6px solid #D71718;
+}
+
+#header .inner {
+    overflow: hidden;
+}
+
+.header_left {
+    float: left;
+    width: 30%;
+    padding: 7px 0px 0px 15px;
+}
+
+.header_left .logo {
+    float: left;
+    text-decoration: none;
+}
+
+.header_left .logo h1 {
+    color: #969696;
+    font-size: 11px;
+}
+
+.header_left .logo img {
+    margin-top: -1px;
+}
+
+.header_right {
+    float: right;
+    width: 70%;
+}
+
+.header_right .slogan {
+    float: left;
+    padding: 48px 0px 0px 0px;
+}
+
+.header_right .slogan img.pc {
+    display: inline-block;
+}
+
+.header_right .slogan .slo_red {
+    font-size: 15px;
+    font-weight: bold;
+    color: #D71718;
+    margin: 0px 43px 0px 15px;
+}
+
+.header_right .header_con {
+    float: right;
+    width: 170px;
+}
+
+.header_right .header_con a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 4.5px 0px 3.5px 0px;
+}
+
+.header_right .header_con .contact {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #D71718;
+    background-image: url('../images/common/arrow1.png');
+    background-repeat: no-repeat;
+    background-position: left 24px center;
+}
+
+.header_right .header_con .infor {
+    border-left: 5px solid #D71718;
+    color: #D71718;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: url('../images/common/arrow2.png');
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    margin-top: 14px;
+    padding: 5.5px 0px 2.5px 0px;
+}
+
+.header_right .header_con .infor:hover {
+    text-decoration: underline;
+}
+
+
+/* end header */
+
+#menu {
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0px 9px 0px;
+}
+
+.nav li {
+    width: 195px;
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0px 7px 0px;
+    background-image: url('../images/common/border.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.nav li:last-child a {
+    background: none;
+}
+
+.nav li a span {
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    font-weight: normal;
+    color: #EB8B8B;
+    margin-top: -3px;
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+
+/* end menu */
+
+#banner {}
+
+
+/* end banner */
+
+#content {
+    width: 100%;
+    overflow: hidden;
+}
+
+#content .inner {
+    overflow: hidden;
+}
+
+.page_title {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.page_title h2 {
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px 0px 6px 0px;
+    text-align: center;
+    background: url('../images/common/page_title.png') no-repeat center;
+    background-size: 100% 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 222px;
+}
+
+.sidebar h4.title {
+    font-size: 16px;
+    color: #C19E39;
+    padding: 6px;
+    border-bottom: 1px solid;
+}
+
+.sidebar .list {
+    overflow: hidden;
+}
+
+.sidebar .list li {
+    display: block;
+}
+
+.sidebar .list li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+    padding: 11px 0px 11px 23px;
+    display: block;
+    border-bottom: 1px solid #E0CE9A;
+    background: url('../images/common/sidebar-arrow.png')left 10px center no-repeat;
+}
+
+
+/* .sidebar .list li:last-child a,
+.sidebar .list li:nth-child(3) a {
+    background: none
+}
+ */
+
+.sidebar .list li a:hover,
+.sidebar .list li.active a {
+    background-color: #F3ECD7;
+}
+
+.sidebar .slidebar_banner {
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.sidebar .slidebar_banner li {
+    display: block;
+    margin-top: 21px;
+}
+
+.sidebar .slidebar_banner li a {
+    display: block;
+}
+
+.main_content {
+    width: 728px;
+    float: right;
+}
+
+.main_content h3.title {
+    font-size: 22px;
+    border-bottom: 2px solid #C19E39;
+    padding: 1px 22px;
+    border-left: 8px solid #C19E39;
+    font-weight: normal;
+}
+
+.main_content .area {
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.main_content .area h4.title {
+    font-size: 20px;
+    border: 1px solid #F3ECD7;
+    color: #C19E39;
+    font-weight: normal;
+    padding-left: 17px;
+    background-color: #fff
+}
+
+#breadcrumb {
+    overflow: hidden;
+    padding: 12px 0px 10px 0px;
+    font-weight: bold;
+}
+
+#breadcrumb .link {
+    overflow: hidden;
+}
+
+#breadcrumb .link li {
+    font-size: 12px;
+    float: left;
+}
+
+#breadcrumb .link li a {
+    color: #45658B;
+    text-decoration: none;
+    float: left;
+}
+
+#breadcrumb .link li a:hover {
+    text-decoration: underline;
+}
+
+#breadcrumb .link li + li::before {
+    content: '»';
+    float: left;
+    margin: 0 5px;
+}
+
+
+/* end content */
+
+#footer {
+    width: 100%;
+    background: #D71718;
+    padding: 19px 0px 15px 0px;
+    margin-top: 59px;
+}
+
+.txt_footer {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* end footer */
+
+
+/******** Responsive ******** /
+
+/* ***** ipad ****** */
+
+@media screen and (max-width: 768px) {
+    .inner {
+        width: 95%;
+    }
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    /***** header *****/
+    #header {
+        border-top: 5px solid #D71718;
+        padding-bottom: 10px;
+    }
+    .header_left {
+        width: 58%;
+        padding: 3px 0px 0px 0px;
+    }
+    .header_left .logo h1 {
+        font-size: 11px;
+        padding-bottom: 2px;
+    }
+    .header_right {
+        width: 42%;
+        position: relative;
+        padding: 4% 0 0 0;
+    }
+    .header_right .header_con {
+        float: none;
+        width: 60%;
+        position: absolute;
+        top: 0px;
+        left: 26%;
+    }
+    .header_right .header_con a {
+        padding: 1% 0 1% 0;
+    }
+    .header_right .header_con .contact {
+        font-size: 10px;
+        background-position: left 13% top 36%;
+        background-size: 3%;
+    }
+    .header_right .slogan img.pc {
+        display: none;
+    }
+    .header_right .header_con .infor {
+        display: none;
+    }
+    .header_right .slogan {
+        padding: 7% 0 0 0;
+    }
+    .header_right .slogan .slo_red {
+        font-size: 18px;
+        margin: 0px 0px 0px 60px;
+    }
+    .header_right .menu_click {
+        float: right;
+        text-align: right;
+    }
+    .header_right .menu_click img {
+        max-width: 90%;
+    }
+    /***** menu *****/
+    #menu {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: #fff;
+        display: none;
+        z-index: 9999;
+    }
+    .nav {
+        padding: 10px 0px 10px 0px;
+    }
+    .nav li {
+        width: 100%;
+    }
+    .nav li a {
+        background: none;
+        border-bottom: 1px solid #D71718;
+    }
+    .nav li:last-child a {
+        border: none;
+    }
+    /***** banner *****/
+    /***** content *****/
+    .main_content {
+        width: 100%;
+    }
+    .main_content h3.title {
+        font-size: 24px;
+    }
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in rotate ****** */
+
+@media screen and (max-width: 736px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in rotate ****** */
+
+@media screen and (max-width: 667px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in rotate ****** */
+
+@media screen and (max-width: 586px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in ****** */
+
+@media screen and (max-width: 414px) {
+    /***** header *****/
+    .header_left .logo h1 {
+        font-size: 9px;
+        padding-bottom: 1%;
+    }
+    .header_right {
+        padding: 6% 0 0 0;
+    }
+    .header_right .slogan .slo_red {
+        margin: 0px 0px 0px 27px;
+    }
+    .header_right .slogan {
+        padding: 4% 0 0 0;
+    }
+    .header_right .header_con .contact {
+        font-size: 9px;
+        background-size: 5%;
+    }
+    .header_right .header_con a {
+        padding: 2% 0 2% 0;
+    }
+    .header_right .slogan .slo_red {
+        font-size: 13px;
+    }
+    .header_right .menu_click img {
+        max-width: 85%;
+    }
+    .header_right {
+        padding: 6.5% 0 0 0;
+    }
+    /***** menu *****/
+    .nav li a {
+        padding: 8px 0px 8px 0px;
+    }
+    /***** banner *****/
+    /***** content *****/
+    .page_title h2 {
+        font-size: 20px;
+    }
+    .main_content h3.title {
+        font-size: 24px;
+    }
+    .main_content .area h4.title {
+        font-size: 18px;
+    }
+    /***** footer *****/
+    .txt_footer {
+        font-size: 11px;
+    }
+}
+
+
+/* ***** iphone 4.7in ****** */
+
+@media screen and (max-width: 375px) {
+    /***** header *****/
+    .header_left .logo h1 {
+        font-size: 8px;
+    }
+    .header_right .menu_click img {
+        max-width: 75%;
+    }
+    .header_right .header_con .contact {
+        font-size: 8px;
+        background-position: left 13% top 36%;
+        background-size: 5%;
+    }
+    .header_right .header_con a {
+        padding: 1% 0 1% 0;
+    }
+    .header_right .slogan .slo_red {
+        margin: 0px 0px 0px 24px;
+    }
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in ****** */
+
+@media screen and (max-width: 320px) {
+    /***** header *****/
+    #header {
+        border-top: 4px solid #D71718;
+    }
+    .header_left .logo h1 {
+        font-size: 7px;
+    }
+    .header_right .slogan .slo_red {
+        font-size: 11px;
+    }
+    .header_right .menu_click img {
+        max-width: 64%;
+    }
+    /***** menu *****/
+    .nav li a {
+        font-size: 13px;
+        padding: 7px 0px 7px 0px;
+    }
+    /***** content *****/
+    .page_title h2 {
+        font-size: 19px;
+    }
+    .main_content .area h4.title {
+        font-size: 16px;
+    }
+    .main_content h3.title {
+        font-size: 19px;
+    }
+    /***** footer *****/
+    #footer {
+        padding: 13px 0px 10px 0px;
+    }
+    .txt_footer {
+        font-size: 9px;
+    }
+}

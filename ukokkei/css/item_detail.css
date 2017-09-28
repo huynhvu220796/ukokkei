@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* item_detail.css
+*
+***************************************************************************/
+
+.main_content .list {
+    overflow: hidden;
+    margin-top: 22px;
+}
+
+.main_content .list li {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.main_content .list li:nth-child(3n + 1) {
+    margin-left: 0;
+}
+
+.main_content .list li p.text {
+    font-size: 12px;
+    letter-spacing: -1px
+}
+
+.main_content .list li img {
+    margin-bottom: 5px;
+}
+
+.info {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.info .img {
+    float: left;
+    width: 345px;
+}
+
+.info .img img {
+    width: 100%;
+}
+
+.info .right {
+    float: right;
+    font-size: 15px;
+    width: 350px;
+}
+
+.info .right input {
+    color: #fff;
+    background-color: #DE5D50;
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+    font-weight: bold;
+    padding: 20px;
+    border-color: #DE5D50;
+    font-size: 20px;
+}
+
+.info .right .favorite {
+    background-color: #525263;
+    margin-top: 20px;
+}
+
+.info .des {
+    float: left;
+    margin-top: 20px;
+}
+
+.info .right .produc_number {
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .inner {
+        width: 95%;
+    }
+    .main_content {
+        width: 100%;
+    }
+    .main_content .list li {
+        width: 48.5%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .main_content .list li:nth-child(even) {
+        float: right;
+    }
+    .main_content .list li .img {
+        width: 100%;
+    }
+    .main_content .list li .img img {
+        width: 100%;
+    }
+    .main_content .list li p.text {
+        font-size: 16px;
+    }
+    .main_content h3.title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 736px) {}
+
+@media screen and (max-width: 667px) {}
+
+@media screen and (max-width: 568px) {
+    .main_content .list li p.text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .main_content .list li .img {
+        width: 80%;
+    }
+    .main_content .list li {
+        width: 100%;
+    }
+    .main_content h3.title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 320px) {}

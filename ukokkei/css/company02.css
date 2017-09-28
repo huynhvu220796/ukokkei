@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* company02.css
+*
+***************************************************************************/
+
+
+/******** Desktop ********/
+
+.table_company {
+    width: 100%;
+    padding: 23px 0px 48px 0px;
+}
+
+.table_company table {
+    width: 100%;
+}
+
+.table_company table tr td a {
+    text-decoration: none;
+    color: #000;
+}
+
+.table_company table tr td a:hover {
+    text-decoration: underline;
+}
+
+.table_company table tr td {
+    border: 1px solid #F3ECD7;
+    padding: 9.5px 27px 9.5px 26px;
+    background-color: #fff;
+}
+
+.table_company table tr td:first-child {
+    width: 138px;
+    background-color: #FCFAF5;
+    padding-left: 29px;
+}
+
+.main_content_01 {
+    width: 100%;
+}
+
+.main_content_01 .area .area_content {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 27px;
+}
+
+.main_content_01 .area .area_content .area_left {
+    float: left;
+    width: 222px;
+}
+
+.main_content_01 .area .area_content .area_left .infor {
+    padding-top: 12px;
+    line-height: 23px;
+}
+
+.main_content_01 .area .area_content .area_left .infor a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main_content_01 .area .area_content .area_left .infor a:hover {
+    text-decoration: underline;
+}
+
+.main_content_01 .area .area_content .area_right {
+    float: right;
+}
+
+
+/******** Responsive ******** /
+
+
+/****** ipad *******/
+
+@media screen and (max-width: 768px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .main_content_01 .area .area_content .area_right {
+        float: right;
+        width: 65%;
+    }
+    .main_content_01 .area .area_content .area_left {
+        float: left;
+        width: 33%;
+    }
+    .main_content_01 .area .area_content .area_right iframe {
+        width: 100%;
+    }
+    .main_content_01 .area .area_content .area_left .infor {
+        word-break: break-all;
+    }
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in rotate ****** */
+
+@media screen and (max-width: 736px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in rotate ****** */
+
+@media screen and (max-width: 667px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in rotate ****** */
+
+@media screen and (max-width: 586px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in ****** */
+
+@media screen and (max-width: 414px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .main_content_01 .area .area_content .area_right {
+        float: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .main_content_01 .area .area_content .area_left {
+        float: none;
+        width: 100%;
+    }
+    .main_content_01 .area .area_content .area_right iframe {
+        width: 100%;
+    }
+    .table_company table tr td:first-child {
+        width: 30%;
+        padding-left: 15px;
+    }
+    .table_company table tr td {
+        padding: 9.5px 10px 9.5px 20px;
+    }
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in ****** */
+
+@media screen and (max-width: 375px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in ****** */
+
+@media screen and (max-width: 320px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .table_company table tr td {
+        font-size: 12px;
+    }
+    /***** footer *****/
+}

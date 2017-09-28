@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* .css
+*
+***************************************************************************/
+
+
+/******** Desktop *********/
+
+.area .area_content .area_content_main {
+    width: 100%;
+    overflow: hidden;
+}
+
+.area1 .area_content {
+    padding-top: 27px;
+}
+
+.area1 .area_content .area_content_main .txt_left {
+    float: left;
+    width: 57%;
+    line-height: 25px;
+}
+
+.area1 .area_content .area_content_main .img_right {
+    float: right;
+}
+
+.area1 .area_content .txt_bottom {
+    width: 100%;
+    line-height: 25px;
+}
+
+.main_content .area2 {
+    margin-top: 63px;
+}
+
+.area2 .area_content {
+    padding-top: 32px;
+    overflow: hidden;
+}
+
+.area2 .area_content .txt_left {
+    float: right;
+    width: 42%;
+    line-height: 25px;
+    margin-bottom: 28px;
+}
+
+.area2 .area_content .txt_left01 {
+    line-height: 25px;
+}
+
+.area2 .area_content .img_right {
+    float: left;
+    padding-right: 29px;
+}
+
+.main_content .area3 {
+    margin-top: 61px;
+}
+
+.area3 .area_content {
+    padding-top: 24px;
+}
+
+.area3 .area_content .img_right {
+    float: right;
+    padding-left: 20px;
+}
+
+.area3 .area_content .txt_left {
+    float: left;
+    width: 43.6%;
+    line-height: 25px;
+}
+
+.area3 .area_content .txt_left01 {
+    line-height: 25px;
+}
+
+.area4 {
+    padding-top: 72px;
+}
+
+.area4 .area_content {
+    padding-top: 25px;
+}
+
+.area4 .area_content p {
+    line-height: 25px;
+}
+
+
+/* end content */
+
+
+/******** Responsive ******** /
+
+
+/****** ipad *******/
+
+@media screen and (max-width: 768px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .area .area_content .img_right {
+        width: 100%;
+        text-align: center;
+    }
+    .area2 .area_content .txt_left {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .area2 .area_content .txt_left01 {
+        width: 100%;
+        overflow: hidden;
+    }
+    .area1 .area_content .area_content_main .txt_left {
+        float: none;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .area1 .area_content .area_content_main .img_right {
+        float: none;
+        text-align: center;
+    }
+    .area1 .area_content .txt_bottom {
+        padding-top: 10px;
+    }
+    .area2 .area_content .img_right {
+        padding-right: 0px;
+    }
+    .area3 .area_content .img_right {
+        padding-left: 0px;
+    }
+    .area3 .area_content .txt_left {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .area3 .area_content .txt_left01 {
+        width: 100%;
+        overflow: hidden;
+    }
+    .area4 {
+        padding-top: 10px;
+    }
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in rotate ****** */
+
+@media screen and (max-width: 736px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in rotate ****** */
+
+@media screen and (max-width: 667px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in rotate ****** */
+
+@media screen and (max-width: 586px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in ****** */
+
+@media screen and (max-width: 414px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in ****** */
+
+@media screen and (max-width: 375px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in ****** */
+
+@media screen and (max-width: 320px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .area .area_content .txt_left {
+        font-size: 13px;
+    }
+    .area .area_content .txt_left01 {
+        font-size: 13px;
+    }
+    .area4 .area_content p {
+        font-size: 13px;
+    }
+    /***** footer *****/
+}

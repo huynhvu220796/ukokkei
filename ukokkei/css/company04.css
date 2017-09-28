@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+/***************************************************************************
+*
+* company04.css
+*
+*
+***************************************************************************/
+
+
+/******** Desktop ********/
+
+.area1 .area_content .ul_list_company {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 26px;
+}
+
+.area1 .area_content .ul_list_company li {
+    float: left;
+    width: 222px;
+    margin-bottom: 26px;
+}
+
+.area1 .area_content .ul_list_company li+li {
+    margin-left: 31px;
+}
+
+.area1 .area_content .ul_list_company li:nth-child(3n+1) {
+    margin-left: 0px;
+}
+
+.area1 .area_content .ul_list_company li a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.area1 .area_content .ul_list_company span {
+    display: block;
+}
+
+.area1 .area_content .ul_list_company .title_item {
+    padding: 7px 0px 3px 0px;
+}
+
+.area1 .area_content .ul_list_company .main_item {
+    word-wrap: break-word;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+/* end content */
+
+
+/******** Responsive ******** /
+
+
+/****** ipad *******/
+
+@media screen and (max-width: 768px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    .area1 .area_content .ul_list_company li {
+        width: 45%;
+    }
+    .area1 .area_content .ul_list_company li:nth-child(2n) {
+        margin-left: 10%;
+    }
+    .area1 .area_content .ul_list_company li+li {
+        margin-left: 0px;
+    }
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in rotate ****** */
+
+@media screen and (max-width: 736px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in rotate ****** */
+
+@media screen and (max-width: 667px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in rotate ****** */
+
+@media screen and (max-width: 586px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 5.5in ****** */
+
+@media screen and (max-width: 414px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 4.7in ****** */
+
+@media screen and (max-width: 375px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
+
+
+/* ***** iphone 3.5in ****** */
+
+@media screen and (max-width: 320px) {
+    /***** header *****/
+    /***** banner *****/
+    /***** content *****/
+    /***** footer *****/
+}
